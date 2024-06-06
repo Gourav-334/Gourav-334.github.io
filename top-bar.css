@@ -1,0 +1,65 @@
+a {
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: orange;
+	background-color: navy;
+
+	transform: scale(1);
+	transition: transform 0.2s ease-in-out;
+
+	margin-left: 107px;
+	margin-right: 107px;
+	margin-top: 1px;
+
+	position: relative;
+}
+
+
+.top-bar {
+	background-color: navy;
+
+	& .home:hover {
+		transform: scale(1.2);
+		color: navy;
+		background-color: orange;
+
+		margin-left: 85px;
+		margin-right: 85px;
+		margin-top: 20px;
+	}
+
+
+	& .about:hover {
+		transform: scale(1.2);
+		transition: transform 0.2s ease-in-out;
+		color: navy;
+		background-color: orange;
+
+		margin-left: 85px;
+		margin-right: 85px;
+		margin-top: 20px;
+	}
+
+
+	& .projects:hover {
+		transform: scale(1.2);
+		transition: transform 0.2s ease-in-out;
+		color: navy;
+		background-color: orange;
+
+		margin-left: 85px;
+		margin-right: 85px;
+	}
+
+
+	& .contact:hover {
+		transform: scale(1.2);
+		transition: transform 0.2s ease-in-out;
+		color: navy;
+		background-color: orange;
+
+		margin-left: 85px;
+		margin-right: 85px;
+	}
+}
