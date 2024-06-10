@@ -6,7 +6,6 @@
 	font-size: 20px;
 
 	background-color: navy;
-	color: white;
 
 	position: relative;
 	padding-top: 5px;
@@ -15,7 +14,7 @@
 
 	/* Initial appearance of texts. */
 	.home {
-		color: orange;
+		color: lightgreen;
 
 		padding-left: 60px;
 		padding-right: 30px;

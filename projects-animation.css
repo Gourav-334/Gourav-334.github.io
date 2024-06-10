@@ -1,0 +1,84 @@
+/* For active projects */
+.active_projects {
+	transition: transform 0.4s ease-in-out;
+	transform: scale(1);
+
+	background-color: lightgreen;
+	font-size: 40px;
+
+	/* Active projects when hovered over. */
+	.ap1:hover {
+		transition: transform 0.3s ease-in-out;
+		transform: scale(1.01);
+
+		background-color: yellow;
+		font-size: 23px;
+	}
+
+	.ap2:hover {
+		transition: transform 0.3s ease-in-out;
+		transform: scale(1.01);
+
+		background-color: yellow;
+		font-size: 23px;
+	}
+}
+
+
+/* For inactive projects */
+.inactive_projects {
+	transition: transform 0.4s ease-in-out;
+	transform: scale(1);
+
+	background-color: lightblue;
+	font-size: 40px;
+
+	/* Active projects when hovered over. */
+	.ip1:hover {
+		transition: transform 0.3s ease-in-out;
+		transform: scale(1.01);
+
+		background-color: yellow;
+		font-size: 23px;
+	}
+
+	.ip2:hover {
+		transition: transform 0.3s ease-in-out;
+		transform: scale(1.01);
+
+		background-color: yellow;
+		font-size: 23px;
+	}
+
+	.ip3:hover {
+		transition: transform 0.3s ease-in-out;
+		transform: scale(1.01);
+
+		background-color: yellow;
+		font-size: 23px;
+	}
+
+	.ip4:hover {
+		transition: transform 0.3s ease-in-out;
+		transform: scale(1.01);
+
+		background-color: yellow;
+		font-size: 23px;
+	}
+
+	.ip5:hover {
+		transition: transform 0.3s ease-in-out;
+		transform: scale(1.01);
+
+		background-color: yellow;
+		font-size: 23px;
+	}
+
+	.ip6:hover {
+		transition: transform 0.3s ease-in-out;
+		transform: scale(1.01);
+		
+		background-color: yellow;
+		font-size: 23px;
+	}
+}

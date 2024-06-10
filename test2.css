@@ -1,6 +1,0 @@
-.class_name:hover {
-  transform: scale(1.2); /* Increase size by 20% on hover */
-  transition: transform 0.2s ease-in-out; /* Ensures smoothness */      /**/
-  background-color: red; /* Also bgc changes when hovered */
-}
-
